@@ -577,3 +577,7 @@ body {
     justify-content: center;
   }
 }
+
+.cursor {
+  display: none !important;
+}
