@@ -3,65 +3,127 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Michael - Developer, Leader, Solver, Asset</title>
+  <title>Michael - Welcome to My Digital Space</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">Michael</span>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
   <!-- Hero Section -->
   <section id="home" class="hero">
-    <div class="text-container">
-      <h1 class="name">Michael</h1>
-      <div class="typewriter"></div>
-      <div class="btn-container">
-        <a href="#about" class="btn">About</a>
-        <a href="#projects" class="btn">Projects</a>
-        <a href="#contact" class="btn">Contact</a>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="greeting">Hello, I'm</span>
+            <span class="name">Michael</span>
+          </h1>
+          <p class="hero-subtitle">
+            Welcome to my digital space where creativity meets technology
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" id="exploreBtn">
+              <span>Explore More</span>
+              <i class="fas fa-arrow-right"></i>
+            </button>
+            <button class="btn btn-secondary" id="contactBtn">
+              <span>Get in Touch</span>
+              <i class="fas fa-envelope"></i>
+            </button>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="floating-card">
+            <div class="card-content">
+              <i class="fas fa-code"></i>
+              <h3>Developer</h3>
+            </div>
+          </div>
+          <div class="floating-card">
+            <div class="card-content">
+              <i class="fas fa-palette"></i>
+              <h3>Designer</h3>
+            </div>
+          </div>
+          <div class="floating-card">
+            <div class="card-content">
+              <i class="fas fa-lightbulb"></i>
+              <h3>Innovator</h3>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-arrow"></div>
     </div>
   </section>
 
   <!-- About Section -->
   <section id="about" class="about">
     <div class="container">
-      <h2>About Me</h2>
-      <p>I'm passionate about creating digital experiences that make a difference. With a blend of technical expertise and creative vision, I bring ideas to life through innovative solutions and beautiful design.</p>
-      
-      <div class="skills">
-        <div class="skill-item">
-          <span>Web Development</span>
-        </div>
-        <div class="skill-item">
-          <span>Mobile Design</span>
-        </div>
-        <div class="skill-item">
-          <span>Data Analysis</span>
-        </div>
-        <div class="skill-item">
-          <span>Innovation</span>
-        </div>
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">A glimpse into my world</p>
       </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="projects">
-    <div class="container">
-      <h2>My Projects</h2>
-      <p>Here are some of the projects I've worked on. Each one represents a unique challenge and creative solution.</p>
-      
-      <div class="project-grid">
-        <div class="project-item">
-          <h3>Project 1</h3>
-          <p>Description of your first project here.</p>
+      <div class="about-content">
+        <div class="about-text">
+          <p class="about-description">
+            I'm passionate about creating digital experiences that make a difference. 
+            With a blend of technical expertise and creative vision, I bring ideas to life 
+            through innovative solutions and beautiful design.
+          </p>
+          <div class="skills">
+            <div class="skill-item">
+              <i class="fas fa-code"></i>
+              <span>Web Development</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-mobile-alt"></i>
+              <span>Mobile Design</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-chart-line"></i>
+              <span>Data Analysis</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-rocket"></i>
+              <span>Innovation</span>
+            </div>
+          </div>
         </div>
-        <div class="project-item">
-          <h3>Project 2</h3>
-          <p>Description of your second project here.</p>
-        </div>
-        <div class="project-item">
-          <h3>Project 3</h3>
-          <p>Description of your third project here.</p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-number">100+</div>
+            <div class="stat-label">Projects Completed</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">50+</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
         </div>
       </div>
     </div>
@@ -70,26 +132,39 @@
   <!-- Contact Section -->
   <section id="contact" class="contact">
     <div class="container">
-      <h2>Let's Connect</h2>
-      <p>Ready to work together? Get in touch!</p>
-      
-      <div class="contact-info">
-        <div class="contact-item">
-          <strong>Email:</strong> michael_shen@berkeley.edu
-        </div>
-        <div class="contact-item">
-          <strong>Phone:</strong> +1 (714) 715-6702
-        </div>
-        <div class="contact-item">
-          <strong>Location:</strong> Berkeley, CA
-        </div>
+      <div class="section-header">
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Ready to work together?</p>
       </div>
-      
-      <div class="social-links">
-        <a href="#" class="social-link">GitHub</a>
-        <a href="#" class="social-link">LinkedIn</a>
-        <a href="#" class="social-link">Twitter</a>
-        <a href="#" class="social-link">Instagram</a>
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>hello@michael.dev</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>+1 (555) 123-4567</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>San Francisco, CA</span>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-link">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-link">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -97,7 +172,7 @@
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2025. All rights reserved. Hope you enjoy!</p>
+      <p>&copy; 2024 Michael. All rights reserved. Made with ❤️ and lots of coffee.</p>
     </div>
   </footer>
 
