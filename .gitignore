@@ -1,0 +1,11 @@
+# macOS system files
+.DS_Store
+
+# Node.js dependencies (if you ever use npm)
+node_modules/
+
+# Log files
+*.log
+
+# Windows system files
+Thumbs.db
